@@ -1,5 +1,5 @@
-/* import {Greetings} from 'kan-mantine-components'
- */import { Button } from '@mantine/core'
+import {Greetings} from 'kan-mantine-components'
+import { Button } from '@mantine/core'
 import './App.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
     <Button variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>ENTER</Button>
      <h1>Hola </h1>
-     {/* <Greetings /> */}
+     <Greetings />
     </>
   );
 }
