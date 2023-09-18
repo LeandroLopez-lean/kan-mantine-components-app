@@ -1,6 +1,7 @@
 import { Greetings } from 'kan-mantine-components'
+import { Cards } from 'kan-mantine-components'
+
 import { Button } from '@mantine/core'
-import {Cards} from './cards.jsx' 
 import './App.css'
 
 function App() {
@@ -50,16 +51,14 @@ function App() {
     category: 'category'
   }
   ]; 
-  
+
   return (
     <>
-     <div className='App'>
+      <div className='App'>
       <Cards data={cardsData}/>
     </div>
-      <Button variant="gradient"
-        gradient={
-          { from: 'indigo', to: 'cyan' }
-        }>ENTER
+      <Button 
+       >ENTER
       </Button>
       <h1>Hola </h1>
       <Greetings />
