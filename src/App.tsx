@@ -1,6 +1,5 @@
 import { Greetings } from 'kan-mantine-components'
 import { Cards } from 'kan-mantine-components'
-
 import { Button } from '@mantine/core'
 import './App.css'
 
