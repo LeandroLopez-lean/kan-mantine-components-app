@@ -55,7 +55,7 @@ function App() {
     <>
       <div className='App'>
       <Cards data={cardsData}/>
-    </div>
+    </div> 
       <Button 
        >ENTER
       </Button>
