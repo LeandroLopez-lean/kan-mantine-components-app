@@ -1,9 +1,10 @@
 import { Greetings } from 'kan-mantine-components'
+import { Cards } from 'kan-mantine-components'
 import { Button } from '@mantine/core'
 import './App.css'
 
 function App() {
-  const cardsData = [
+ /*  const cardsData = [
     {
       title: 'Nombre de la capa',
       category: 'categoria',
@@ -54,17 +55,18 @@ function App() {
       category: 'category'
     }
   ];
-
+ */
   return (
     <>
+    
+      <Cards />
 
       <Button>ENTER</Button> 
 
       <h1>Hola </h1>
 
       <Greetings />
-     
-      <div>
+    {/*   
       {cardsData.map((card, index) => (
         <div key={index}>
           <h2>{card.title}</h2>
@@ -80,9 +82,8 @@ function App() {
           )}
         </div>
       ))}
-    </div>
-      {/* <Cards>{cardsData}</Cards> */}
-
+    }*/}
+     
     </>
   );
 }
