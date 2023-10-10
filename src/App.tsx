@@ -1,10 +1,9 @@
 import { Greetings, Cards } from 'kan-mantine-components'
-/* import { Cards } from 'kan-mantine-components' */
 import { Button } from '@mantine/core'
 import './App.css'
 
 function App() {
- /*  const cardsData = [
+  const cardsData = [
     {
       title: 'Nombre de la capa',
       category: 'categoria',
@@ -55,11 +54,13 @@ function App() {
       category: 'category'
     }
   ];
- */
+ 
   return (
     <>
     
-      <Cards />
+    <div>
+      <Cards data={cardsData}/>
+    </div>
 
       <Button>ENTER</Button> 
 
@@ -88,4 +89,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
