@@ -1,6 +1,6 @@
 import { Greetings, Cards } from 'kan-mantine-components'
 import { Button } from '@mantine/core'
-import './App.css'
+import './cards.css'
 
 function App() {
   const cardsData = [
