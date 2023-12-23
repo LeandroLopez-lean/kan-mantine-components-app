@@ -1,6 +1,5 @@
-import { Greetings, Cards } from 'kan-mantine-components'
-import { Button } from '@mantine/core'
-
+import { Greetings, Cards } from "kan-mantine-components";
+import { Button } from '@mantine/core';
 
 function App() {
   const cardsData = [
@@ -67,7 +66,7 @@ function App() {
       <h1>Hola </h1>
 
       <Greetings />
-    {/*   
+      
       {cardsData.map((card, index) => (
         <div key={index}>
           <h2>{card.title}</h2>
@@ -83,7 +82,7 @@ function App() {
           )}
         </div>
       ))}
-    }*/}
+    
      
     </>
   );

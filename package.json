@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@mantine/core": "^6.0.21",
+    "kan-mantine-components": "file:../kan-mantine-components",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
